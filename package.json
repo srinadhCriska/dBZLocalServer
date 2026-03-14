@@ -1,0 +1,24 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is a traditional server built using traditional methods",
+  "homepage": "https://github.com/srinadhCriska/dBZLocalServer#readme",
+  "bugs": {
+    "url": "https://github.com/srinadhCriska/dBZLocalServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinadhCriska/dBZLocalServer.git"
+  },
+  "license": "ISC",
+  "author": "srinadhpala",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
