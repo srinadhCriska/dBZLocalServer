@@ -12,13 +12,15 @@
   },
   "license": "ISC",
   "author": "srinadhpala",
-  "type": "module",
+  "type": "nodeserver",
   "main": "server.js",
   "scripts": {
+    "express":"nodemon express.js",
     "test": "node server",
     "start": "nodemon server.js"
   },
   "dependencies": {
+    "express": "^5.2.1",
     "nodemon": "^3.1.14"
   }
 }

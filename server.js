@@ -1,5 +1,5 @@
-import http from "http";
-import { character } from "./character.js";
+const http = require("http");
+const { character } = require("./character");
 
 const server = http.createServer((req, res) => {
   if (req.url === "/characters") {
